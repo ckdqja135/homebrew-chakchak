@@ -11,7 +11,7 @@ cask "chakchak" do
   desc "대화와 작업물을 하나의 협업 공간으로 연결"
   homepage "https://github.com/ckdqja135/homebrew-chakchak"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Chakchak.app"
 
