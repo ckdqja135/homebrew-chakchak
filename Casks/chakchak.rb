@@ -1,9 +1,9 @@
 cask "chakchak" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.9"
-  sha256 arm:   "16f25c82e0fa9dde703db15c91d326d1cc0369bbf37b96990b579705a5d779de",
-         intel: "7870a4efff62c0bd9f6e86c12888dc833a8e047bd688f9ec3e7f9bcfd0aa2314"
+  version "1.0.10"
+  sha256 arm:   "1ea4b8bf3853fa4cd9f6bb4163c2dc3f7f8271a86cf576a9a7f3544d26ba13ea",
+         intel: "8623f5390e1397251efdbb0cae932e891732f124a85cc2aa81d05e80f9ba3587"
 
   url "https://github.com/ckdqja135/homebrew-chakchak/releases/download/v#{version}/Chakchak-mac-#{arch}.dmg"
   name "Chakchak"
